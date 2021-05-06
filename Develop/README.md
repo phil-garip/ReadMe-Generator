@@ -1,8 +1,8 @@
-# P
-  MIT
+# Read Me Generator
+  Artistic License 2.0
   
   # Description
-  p
+  This program will dynamically generate a Read Me Markdown file for each projec that it runs in.
   
   # Table of Contents
   
@@ -16,22 +16,22 @@
   # Installation
   To install necessary dependencies, run the following command:
 
-      p
+      npm i
   
   # Usage
   Please do not copy!
-  p
+  Users should not duplicate or reproduce this project.
   
   # License
-  This project is run under the MIT license.
+  This project is run under the Artistic License 2.0 license.
   
   # Contributing
-  p
+  Please reach out via email to find out more about contributions.
 
   # Tests
   To test, run the following command:
 
-      p
+      npm test
 
   # Questions
-  If you have any questions please feel free to email me at p. You can view more of my work at @p on GitHub!
+  If you have any questions please feel free to email me at phil.garip@gmail.com. You can view more of my work at @phil-garip on GitHub!
