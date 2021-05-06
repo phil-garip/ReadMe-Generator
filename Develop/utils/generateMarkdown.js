@@ -31,7 +31,8 @@ const renderReadMe = ({ title, description, install, usage, contribution, test, 
   
   # Installation
   To install necessary dependencies, run the following command:
-  ${install}
+
+      ${install}
   
   # Usage
   Please do not copy!
@@ -45,14 +46,15 @@ const renderReadMe = ({ title, description, install, usage, contribution, test, 
 
   # Tests
   To test, run the following command:
-  ${test}
+
+      ${test}
 
   # Questions
   If you have any questions please feel free to email me at ${email}. You can view more of my work at ${github}.`
 }
 
 module.exports = {
-  renderReadMe: (info) => {
+  generateContent: (info) => {
     fs.writeFile("README.md", renderReadMe(info), "utf8", (err) => {
       if (err) console.log(err);
       console.log("We wrote the file.")
