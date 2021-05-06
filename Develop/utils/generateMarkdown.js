@@ -15,39 +15,40 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 const renderReadMe = ({ title, description, install, usage, contribution, test, license, github, email }) => {
   return `# ${title}
+  ![GitHub License](INTERPOLATE LICENSE BDAGE HERE)
   
   # Description
   ${description}
   
   # Table of Contents
   
-      1. [Installation](#installation)
-      2. [Usage](#usage)
-      3. [License](#license)
-      4. [Contributing](#contributing)
-      5. [Tests](#tests)
-      6. [Questions](#questions)
+      * [Installation](#installation)
+      * [Usage](#usage)
+      * [License](#license)
+      * [Contributing](#contributing)
+      * [Tests](#tests)
+      * [Questions](#questions)
   
   # Installation
+  To install necessary dependencies, run the following command:
   ${install}
   
   # Usage
+  Please do not copy!
   ${usage}
   
   # License
-  ${license}
+  This project is run under the ${license} license.
   
   # Contributing
   ${contribution}
 
   # Tests
+  To test, run the following command:
   ${test}
 
   # Questions
-  If you have any questions please feel free to contact me on github or by email!
-
-  Github: ${github}
-  Email: ${email}`
+  If you have any questions please feel free to email me at ${email}. You can view more of my work at ${github}.`
 }
 
 module.exports = {

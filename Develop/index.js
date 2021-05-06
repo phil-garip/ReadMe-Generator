@@ -6,36 +6,36 @@ const { renderReadMe } = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [{
         type: 'input',
-        message: 'Please enter a Title for your project:',
+        message: 'What is the name of your porject?',
         name: 'title'
     },
     {
         type: 'input',
-        message: 'Please enter a description:',
+        message: 'Please enter a short description for your project:',
         name: 'description'
     },
     {
         type: 'input',
-        message: 'Please enter installation instructions for this project:',
+        message: 'What command should be run to install dependencies?',
         name: 'install'
     },
     {
         type: 'input',
-        message: 'Please enter any usage information:',
+        message: 'What does the user need to know about using the repo?',
         name: 'usage'
     },
     {
         type: 'input',
-        message: 'Please specify any contribution guidelines:',
+        message: 'What does a user need to know about contributing to the repo?',
         name: 'contribution'
     },
     {
         type: 'input',
-        message: 'Please enter any test intructions:',
+        message: 'What command should be run to run tests?',
         name: 'test'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         messgae: 'Which license would you like to attach?',
         name: 'license',
         choices: [
